@@ -5,6 +5,7 @@ import {
     FETCH_STREAM,
     FETCH_STREAMS
 } from '../actions/types'
+import _ from 'lodash'
 
 export default ( state = {}, action) => {
     switch(action.type){
